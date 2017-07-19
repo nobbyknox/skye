@@ -1,0 +1,9 @@
+*private.js
+*.log
+*.out
+*.sh
+.idea/
+.vscode/
+.DS_Store
+node_modules/
+*~
