@@ -8,6 +8,7 @@ module.exports = {
         'key-spacing': 0,
         'max-len': [2, { code: 200, comments: 100, ignoreStrings: true, ignoreTemplateLiterals: true }],
         'max-lines': [1, { max: 4000, skipBlankLines: true, skipComments: true }],
+        'no-console': 0,
         'no-else-return': 0,
         'no-loop-func': 1,
         'no-path-concat': 1,
