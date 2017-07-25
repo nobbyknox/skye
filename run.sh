@@ -9,3 +9,6 @@ export mqtt_broker_password="null"
 export enable_delegator="false"
 
 clear; npm run start:no-reload
+
+# mosquitto_pub -t skye/send-notification -m '{}'
+# mosquitto_pub -t skye/process-image -m '{}'
