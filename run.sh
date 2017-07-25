@@ -12,3 +12,4 @@ clear; npm run start:no-reload
 
 # mosquitto_pub -t skye/send-notification -m '{}'
 # mosquitto_pub -t skye/process-image -m '{}'
+# mosquitto_pub -t skye/i-am-leader -m '{"name":"imposter"}'
