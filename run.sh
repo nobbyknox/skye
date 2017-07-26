@@ -8,7 +8,8 @@ export mqtt_broker_username="null"
 export mqtt_broker_password="null"
 export enable_delegator="false"
 
-clear; npm run start:no-reload
+clear
+node lib/skye.js | ./node_modules/.bin/bunyan -L -o short --color
 
 # mosquitto_pub -t skye/send-notification -m '{}'
 # mosquitto_pub -t skye/process-image -m '{}'
