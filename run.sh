@@ -11,6 +11,6 @@ export enable_delegator="false"
 clear
 node lib/skye.js | ./node_modules/.bin/bunyan -L -o short --color
 
+# mosquitto_pub -t skye/i-am-leader -m '{"name":"imposter"}'
 # mosquitto_pub -t skye/send-notification -m '{}'
 # mosquitto_pub -t skye/process-image -m '{}'
-# mosquitto_pub -t skye/i-am-leader -m '{"name":"imposter"}'
