@@ -1,12 +1,12 @@
 #!/bin/bash
 
-export logger_name="skye"
-export logger_level="debug"
-export logger_src="true"
-export mqtt_broker_host="127.0.0.1"
-export mqtt_broker_username="null"
-export mqtt_broker_password="null"
-export enable_delegator="false"
+export LOGGER_NAME="skye"
+export LOGGER_LEVEL="debug"
+export LOGGER_SRC="true"
+export MQTT_BROKER_HOST="127.0.0.1"
+export MQTT_BROKER_USERNAME="null"
+export MQTT_BROKER_PASSWORD="null"
+export ENABLE_DELEGATOR="true"
 
 clear
 node lib/skye.js | ./node_modules/.bin/bunyan -L -o short --color
